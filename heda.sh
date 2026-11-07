@@ -52,7 +52,7 @@ run_stage() {
     echo -e "${YELLOW}[+] ${title}${RESET}"
 
     for i in {1..10}; do
-        printf "\r${CYAN}[%02d/10] Processing simulation...${RESET}" "$i"
+        printf "\r${CYAN}[%02d/10] Processing recon...${RESET}" "$i"
         sleep 1.2
     done
 
